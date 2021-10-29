@@ -295,3 +295,24 @@ footer nav a {
 .container p{
     margin-bottom: 3%;
 }
+.containerabout-page button{
+    width: 17%;
+    padding:2% 1%;
+    border-radius:10px;
+}
+section.pics {
+    display:flex;
+   justify-content: space-evenly;
+}
+section.pics2 {
+    display:flex;
+   justify-content: space-evenly;
+}
+/* .pics img{
+    width: 45%;
+
+    
+} */
+.pics p{
+    width:45%;
+}
