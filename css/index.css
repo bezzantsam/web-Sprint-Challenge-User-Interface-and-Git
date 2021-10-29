@@ -52,7 +52,7 @@ table {
         padding:0;
         margin:0;
         max-width:100%;
-        border:1px solid grey; 
+        /* border:1px solid grey;  */
     
     
 }
@@ -176,9 +176,6 @@ nav a{
     /* margin-bottom:-2%;
     margin-top: 2%; */
     color:white;
-    
-   
-    
     padding: 3%;
   
 }
@@ -294,25 +291,54 @@ footer nav a {
 }
 .container p{
     margin-bottom: 3%;
+   
+
+    
 }
-.containerabout-page button{
-    width: 17%;
+
+.topp{
+    border-bottom:1px dashed grey;
+   
+}
+
+ button{
+    width: 25%;
     padding:2% 1%;
     border-radius:10px;
+    margin-bottom: 8%;
 }
 section.pics {
     display:flex;
    justify-content: space-evenly;
+   margin-top: 3%;
+  
+   
 }
 section.pics2 {
     display:flex;
    justify-content: space-evenly;
+  
 }
-/* .pics img{
-    width: 45%;
 
-    
-} */
 .pics p{
-    width:45%;
+    width:100%;
+    margin-top: 2%;
+   
+}
+h3{
+    margin-top:3%
+}
+.bottom{
+    width: 99%;
+    margin-left: 2%
+
+}
+div.three{
+    border-bottom:1px dashed grey;
+    
+
+}
+div.four{
+    border-bottom:1px dashed grey;
+
 }
