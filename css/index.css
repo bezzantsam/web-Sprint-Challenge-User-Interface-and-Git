@@ -102,15 +102,64 @@ p {
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 80%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
+    
+    
     align-items: center;
     justify-content: center;
 }
+.boxes{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.teal{
+    background-color: teal;
+    width: 17%;
+}
+.gold{
+    background-color: gold;
+    width: 17%;
+}
+.cadetblue{
+    background-color: cadetblue;
+    width: 17%;
+}
+.coral{
+    background-color: coral;
+    width: 17%;
+}
+.crimson{
+    background-color:crimson ;
+    width: 17%;
+}
+.forestgreen{
+    background-color: forestgreen;
+    width: 17%;
+}
+.darkorchid{
+    background-color: darkorchid;
+    width: 17%;
+}
+.hotpink{
+    background-color: hotpink;
+    width: 17%;
+}
+.indigo{
+    background-color: indigo;
+    width: 17%;
+}
+.dodgerblue{
+    background-color: dodgerblue;
+    width: 17%;
+}
+
 
 .bottom-content {
     display: flex;
