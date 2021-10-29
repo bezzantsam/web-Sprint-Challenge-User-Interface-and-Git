@@ -48,7 +48,13 @@ table {
 }
 
 * {
-    box-sizing: border-box;
+            box-sizing: border-box;
+        padding:0;
+        margin:0;
+        max-width:100%;
+        border:1px solid grey; 
+    
+    
 }
 
 html, body {
@@ -66,9 +72,42 @@ p {
     line-height: 1.4;
 }
 
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+header{
+    width: 800px;
+    margin: 0 auto;
+    
+    
+    
+}
+header div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 4%, 
+}
+nav{
+    width:75%;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    font-size: 1.1rem;
+   
+
+}
+nav a{
+    
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 20%;
+    margin: 4% 0;
+
 }
 
 .top-content {
@@ -99,10 +138,11 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
 }
 
 .middle-content .boxes .box {
-    width: 80%;
+    width: 95%;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -113,57 +153,84 @@ p {
     align-items: center;
     justify-content: center;
 }
-.boxes{
-    width: 85%;
+.boxes1{
+    width: 100%;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content:space-evenly;
+    text-align: center;
+   
+   
+    
+    padding: 3%;
+  
+}
+.boxes2{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    text-align: center;
+    
+   
+    
+    padding: 3%;
+  
 }
 .teal{
     background-color: teal;
-    width: 17%;
+    width: 15%;
+    padding: 5%;
 }
 .gold{
     background-color: gold;
-    width: 17%;
+    width: 15%;
+    padding: 5%
 }
 .cadetblue{
     background-color: cadetblue;
-    width: 17%;
+    width: 15%;
+    padding: 5%;
 }
 .coral{
     background-color: coral;
-    width: 17%;
+    width: 15%;
+    padding: 5%
 }
 .crimson{
     background-color:crimson ;
-    width: 17%;
+    width: 15%;
+    padding: 5%
 }
 .forestgreen{
     background-color: forestgreen;
-    width: 17%;
+    width: 15%;
+    padding: 5%
 }
 .darkorchid{
     background-color: darkorchid;
-    width: 17%;
+    width: 15%;
+    padding: 5%
 }
 .hotpink{
     background-color: hotpink;
-    width: 17%;
+    width: 15%;
+    padding: 5%
 }
 .indigo{
     background-color: indigo;
-    width: 17%;
+    width: 15%;
+    padding: 5%
+    
 }
 .dodgerblue{
     background-color: dodgerblue;
-    width: 17%;
+    width: 15%;
+    padding: 5%
 }
 
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    margin:  2% 20px;
     justify-content: space-around;
 }
 
