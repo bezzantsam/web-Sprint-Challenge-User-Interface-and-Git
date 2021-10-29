@@ -33,24 +33,29 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
-
+It is descriptive html, the type of tags that you can tell what is within
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Display:block; takes up the whole width and begins a new block or line. It is its own entity.
+display:inline deals within the element it is addressing and is unaffected by height and width.
 
 3. What are the 4 areas of the box model?
+content padding border margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+cross axis and of course this is relative to the flex direction
 
 5. Explain why git is valuable to a team of developers.
+it is version control and it manages memory efficiently and securely. Itr keeps track of changes as different versions. Organization and workflow.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
+- [ x] Create a forked copy of this project.
+- [ x] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [x ] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [ x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [ x] Push commits: git push -u origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
